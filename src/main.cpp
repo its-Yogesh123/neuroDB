@@ -20,7 +20,7 @@ void insertionMethod(bp_tree** bPTree) {
     cout << "\nWhat's the Name, Age and Marks acquired?: ";
     cin >> name >> age >> marks;
 
-    string fileName = "DBFiles/";
+    string fileName = "../DBFiles/";
     fileName += to_string(rollNo) + ".txt";
     FILE* filePtr = fopen(fileName.c_str(), "w");
     if (filePtr == NULL) {

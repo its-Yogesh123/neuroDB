@@ -1,5 +1,5 @@
 #include <iostream>
-#include "bp_tree.hpp"
+#include "../include/bp_tree.hpp"
 
 using namespace std;
 
@@ -43,7 +43,7 @@ bp_tree::bp_tree() {
         as the size of the Tree pointer is small but the size of the
         data pointer in the leaf nodes is large so we can only put less
         nodes in the leafs as compared to the internal Nodes. Thats the
-        reson to reperate out these to variables.
+        reson to seperate out these to variables.
 
     */
     this->maxIntChildLimit = 4;

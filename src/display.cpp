@@ -1,6 +1,6 @@
 #include <iostream>
 #include <queue>
-#include "bp_tree.hpp"
+#include "../include/bp_tree.hpp"
 
 using namespace std;
 

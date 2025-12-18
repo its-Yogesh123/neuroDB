@@ -2,7 +2,7 @@
 #include <fstream>
 #include <algorithm>
 #include <vector>
-#include "bp_tree.hpp"
+#include "../include/bp_tree.hpp"
 
 using namespace std;
 
